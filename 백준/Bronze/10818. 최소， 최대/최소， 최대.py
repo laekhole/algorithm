@@ -1,9 +1,3 @@
-N= int(input())
-nums=[]
-in_put=input()
-in_put=in_put.split()
-# in_put=int(in_put)
-for i in in_put:
-    nums.append(int(i))
-
+N=int(input())
+nums=list(map(int,input().split()))
 print(min(nums), max(nums))
